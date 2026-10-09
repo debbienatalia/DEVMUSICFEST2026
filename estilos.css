@@ -1,0 +1,176 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    background-color: #08182b;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.cabecera {
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.cabecera h1 {
+    font-size: 40px;
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.cabecera h3 {
+    color: #dbeafe;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.tarjeta {
+    width: 600px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.card {
+    background-color: #102943;
+    padding: 25px;
+    border: 1px solid #245078;
+    border-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    color: #38bdf8;
+    margin-bottom: 25px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group p {
+    color: #dbeafe;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #08182b;
+    color: white;
+    border: 1px solid #245078;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+
+input[type="file"] {
+    width: 100%;
+    color: white;
+}
+
+
+.boton {
+    margin-top: 25px;
+}
+
+.boton button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1685e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton button:hover {
+    background-color: #0865b5;
+}
+
+.acreditacion {
+    width: 550px;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #102943;
+    border: 2px solid #1685e8;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.acreditacion h2 {
+    text-align: center;
+    color: #38bdf8;
+}
+
+.acreditacion h3 {
+    color: #7dd3fc;
+    border-bottom: 1px solid #245078;
+    padding-bottom: 8px;
+    margin-top: 25px;
+}
+
+.acreditacion img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border: 2px solid #38bdf8;
+    border-radius: 5px;
+}
+
+.acreditacion p {
+    line-height: 1.5;
+}
+
+.acreditacion .precio-total {
+    background-color: #173f60;
+    color: #7dd3fc;
+    padding: 12px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #38bdf8;
+    border-radius: 5px;
+}
+
+
+.volver {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.volver a {
+    color: rgb(56, 189, 248);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.volver a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
